@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;  
+    font-family: 'Satisfy', cursive;
+    font-size:40px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+}
+html {
+  background-image: url('https://th.bing.com/th/id/R.9c1f7ef67119fca3977dac24ae4a9b53?rik=keBB2px%2bY17ceA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f25%2f368018-walls-books-pattern.jpg&ehk=eGdoOctjQ3Wg%2b%2flpna1V3WM9UxXOsazKx1dXxhdVc6g%3d&risl=1&pid=ImgRaw&r=0');
+  background-repeat: repeat;
+  text-align: center;
+  background-size: contain;
+}
+/* This is for the box behind the content */
+div {
+    width: 160px;
+    height: fit-content;
+    padding: 10px;
+    border: 10px solid rgb(240, 240, 233);
+    background: rgb(240, 240, 233);
+  }
+/* This denotes how big, long and how opaque it will be*/
+  .div2 {
+    width: 800px;
+    height: fit-content;
+    opacity: 90%;
+    margin: auto;
+}
+/* */
+p {
+  font-family: 'Princess Sofia', cursive;
+  font-size: 25px;
+}
+/*This changes nav bar link to black, centers it and gives it a font*/
+a {
+  color:black;
+  text-align:center;
+}
+/* This is to remove line under the nav bar link */
+a:link {
+  text-decoration:none;
+  font-family: 'Lugrasimo', cursive;
+  font-weight:bold
+}
+/*The UL/li/li a is for the navigation bar */
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+li {
+  display:inline;
+  justify-content: space-between;
+}
+li a {
+  display:inline ;
+  color:black;
+  text-align: center;
+  padding:6px;
+  text-decoration:none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:20px;
+  font-weight:bold;
+}
+p.p1 {
+  font-family: 'Nanum Pen Script', cursive;
+}
+/* borders for pictures*/
+img {
+  border: 2px solid black;
+}
