@@ -31,7 +31,7 @@ div {
 /* */
 p {
   font-family: 'Princess Sofia', cursive;
-  font-size: 25px;
+  font-size: 20px;
 }
 /*This changes nav bar link to black, centers it and gives it a font*/
 a {
@@ -54,6 +54,7 @@ ul {
 li {
   display:inline;
   justify-content: space-between;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 li a {
   display:inline ;
@@ -71,4 +72,12 @@ p.p1 {
 /* borders for pictures*/
 img {
   border: 2px solid black;
+}
+/* This is the font changes for my form and check boxes */
+form {
+  font-family:cursive;
+}
+p.label {
+  font-family:sans-serif;
+  font-size:medium;
 }
